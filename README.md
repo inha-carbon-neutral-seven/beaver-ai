@@ -19,3 +19,8 @@
 ## 프로젝트 소개
 - LLM을 결합한 소매업체 재고 최적화 서비스, **비버.ai** 입니다. 
 
+## 구성원 및 역할
+| [<img src="https://github.com/hemaher0.png" width="100px">](https://github.com/hemaher0) | [<img src="https://github.com/highcloud100.png" width="100px">](https://github.com/highcloud100) | [<img src="https://github.com/KangmoonSeo.png" width="100px">](https://github.com/KangmoonSeo) | [<img src="https://github.com/ChoiBoKeun1.png" width="100px">](https://github.com/ChoiBoKeun1) | [<img src="https://github.com/ColdTbrew.png" width="100px">](https://github.com/ColdTbrew) |
+| :--------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------:
+|[강민우](https://github.com/hemaher0)|[백범성](https://github.com/highcloud100)|[서강문](https://github.com/KangmoonSeo)|[최보근](https://github.com/ChoiBoKeun1)|[최승혁](https://github.com/ColdTbrew)|
+| <!--강민우 역할--> | <!--백범성 역할--> | <!--서강문 역할--> | <!--최보근 역할--> | <!--최승혁 역할--> | 
