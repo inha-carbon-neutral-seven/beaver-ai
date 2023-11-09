@@ -1,0 +1,6 @@
+[submodule "beaver-web-server"]
+	path = beaver-web-server
+	url = https://github.com/inha-carbon-neutral-seven/beaver-web-server.git
+[submodule "beaver-web-client"]
+	path = beaver-web-client
+	url = https://github.com/inha-carbon-neutral-seven/beaver-web-client.git
