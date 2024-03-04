@@ -1,26 +1,66 @@
-
-# 비버.ai
-<p>
-    <img src="https://img.shields.io/badge/React-0088cc?style=flat&logo=React&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Tailwind CSS-06B6D4?style=flat&logo=Tailwind CSS&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=Node.js&logoColor=white"/>
-    <img src="https://img.shields.io/badge/FastAPI-005571?style=flat&logo=FastAPI&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=Docker&logoColor=white"/>
-    <img src="https://img.shields.io/badge/PyTorch-EE4C2C?logo=PyTorch&logoColor=white" alt="PyTorch badge">
-    <img src="https://img.shields.io/badge/Python-3776AB?style=square&logo=Python&logoColor=white"/>
-</p>
-
+<div align="center">
+  <br>
+  <picture>
 <p align="center" width="100%">
-    <img src="docs/images/logo.png" alt="beaver icon" style="width: 200px; height:200px; display: block; margin: auto; border-radius: 80%;">
+    <img src="docs/images/logo.png" alt="beaver icon" style="width: 120px; height:120px; display: block; margin: auto; border-radius: 80%;">
 </p>
+  </picture>
+  
+  <h2>비버.ai, 일반 소매업자를 위한 데이터 분석 서비스</h2></hr>
+  <p align="center">
+    <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React badge">
+    <img src="https://img.shields.io/badge/Redux-593d88?style=flat-square&logo=redux&logoColor=white" alt="Redux badge">
+    <img src="https://img.shields.io/badge/Tailwind CSS-38B2A?style=flat-square&logo=Tailwind CSS&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=Node.js&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white"/>
+    <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=FastAPI&logoColor=white" alt="FastAPI badge">
+    <img src="https://img.shields.io/badge/LangChain-339933?style=flat-square&logo=GitHub&logoColor=white" alt="LangChain badge">
+    <img src="https://img.shields.io/badge/LlamaIndex-5C3EE8?style=flat-square&logo=GitHub&logoColor=white" alt="LlamaIndex badge">
+    <img src="https://img.shields.io/badge/Faiss-0467DF?style=flat-square&logo=meta&logoColor=white" alt="faiss badge">
+    <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=PyTorch&logoColor=white" alt="PyTorch badge">
+    <img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat-square&logo=scikit-learn&logoColor=white" alt="Scikit-learn badge">
+    <img src="https://img.shields.io/badge/FastChat-0467DF?style=flat-square&logo=GitHub&logoColor=white" alt="FastChat badge">
+    <img src="https://img.shields.io/badge/Huggingface-FFD21E?style=flat-square&logo=huggingface&logoColor=white" alt="Huggingface badge">
+  </p>
+</div>
 
-### 비버처럼 꼼꼼하게, 소매업체를 위한 재고 분석·최적화 서비스 
+## 비버.ai 소개
 
-## 프로젝트 소개
-- LLM을 결합한 소매업체 재고 최적화 서비스, **비버.ai** 입니다. 
+- **비버.ai**는 일반 소매업자가 데이터 분석을 쉽게 할 수 있도록 돕는 서비스입니다.
+- **소매업 파일**을 첨부하면 맞춤형 대시보드와 데이터 분석 인사이트를 제공합니다.
+- 서비스에 LLM을 결합하여 정규화되지 않은 다양한 데이터를 이해하고, 사용자에게 자연어 인터페이스를 제공합니다. 
 
-## 구성원 및 역할
-| [<img src="https://github.com/hemaher0.png" width="100px">](https://github.com/hemaher0) | [<img src="https://github.com/highcloud100.png" width="100px">](https://github.com/highcloud100) | [<img src="https://github.com/KangmoonSeo.png" width="100px">](https://github.com/KangmoonSeo) | [<img src="https://github.com/ChoiBoKeun1.png" width="100px">](https://github.com/ChoiBoKeun1) | [<img src="https://github.com/ColdTbrew.png" width="100px">](https://github.com/ColdTbrew) |
-| :--------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------:
-|[강민우](https://github.com/hemaher0)|[백범성](https://github.com/highcloud100)|[서강문](https://github.com/KangmoonSeo)|[최보근](https://github.com/ChoiBoKeun1)|[최승혁](https://github.com/ColdTbrew)|
-| <!--강민우 역할--> | <!--백범성 역할--> | <!--서강문 역할--> | <!--최보근 역할--> | <!--최승혁 역할--> | 
+## 비버.ai 주요 기능
+- 파일 내용을 분석하고, 맞춤형 정보로 가공해 대시보드 형태로 제공합니다. 
+    <details>
+    <summary>맞춤형 대시보드</summary>
+
+    ![image](docs/images/맞춤형-대시보드.gif)
+    </details>
+- 소매업자의 요청에 맞추어 데이터 분석을 돕습니다. 
+    <details>
+    <summary>데이터 분석 지원</summary>
+    
+    ![image](docs/images/테이블-질의응답.gif)
+    </details>
+- 첨부한 문서로부터 믿을 수 있는 다양한 인사이트를 제공합니다. 
+    <details>
+    <summary>문서로부터의 인사이트</summary>
+
+    ![image](docs/images/문서-질의응답.gif)
+    </details>
+
+## 팀원 구성 및 역할 분담
+
+|                                                                 **서강문**                                                                  |                                                                  **백범성**                                                                  |                                                               **최승혁**                                                                |                                                              **강민우**                                                              |                                                                 **최보근**                                                                  |
+| :-----------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------: |
+| [<img src="https://avatars.githubusercontent.com/u/100016044?v=4" height=150 width=150> <br/> @KangmoonSeo](https://github.com/KangmoonSeo) | [<img src="https://avatars.githubusercontent.com/u/80192345?v=4" height=150 width=150> <br/> @highcloud100](https://github.com/highcloud100) | [<img src="https://avatars.githubusercontent.com/u/117180508?v=4" height=150 width=150> <br/> @ColdTbrew](https://github.com/ColdTbrew) | [<img src="https://avatars.githubusercontent.com/u/69228100?v=4" height=150 width=150> <br/> @hemaher0](https://github.com/hemaher0) | [<img src="https://avatars.githubusercontent.com/u/136104922?v=4" height=150 width=150> <br/> @ChoiBoKeun1](https://github.com/ChoiBoKeun1) |
+|                                  팀장<br/> 웹 서버 개발 </br> LLM 결합 로직 개발</br> 모델 서버 관리 </br>                                  |                                       웹 개발 환경 구축</br> 개발 CI/CD 관리 </br> 모델 서버 및 최적화                                       |                                     오픈 소스 모델 평가<br> LLM 로직 개발 지원 </br> 모델 서버 관리                                     |                       클라이언트 개발 </br> 대시보드 기획 </br> 대시보드 인터페이스 제작</br> 형태소 분석 기획                       |                                  클라이언트 개발</br> 클라이언트 프로젝트 관리 </br> 채팅 인터페이스 제작                                   |
+
+## 개발 기간
+
+2023.09.26~2024.02.27
+
+## 서비스 아키텍처
+
+<img src="https://raw.githubusercontent.com/inha-carbon-neutral-seven/beaver-web-client/38a00bd4a568ac22022d60abc8eee145ee76b663/src/image/Architecture.png"/>
